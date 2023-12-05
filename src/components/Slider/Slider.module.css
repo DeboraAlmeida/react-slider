@@ -15,7 +15,7 @@
   border-radius: 2px;
 }
 
-.img-hide {
+.imgHide {
   display: none;
 }
 
@@ -64,7 +64,7 @@
   margin: 0 0.4rem;
 }
 
-.selector-inactive {
+.selectorInactive {
   background-color: #0008;
   box-shadow: 0 0 5px #333;
 }

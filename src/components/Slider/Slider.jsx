@@ -1,5 +1,5 @@
 import React from "react";
-import './Slider.css'
+import styles from './Slider.module.css'
 
 export const Slider = ({ imagens }) => {
 
@@ -32,15 +32,15 @@ export const Slider = ({ imagens }) => {
   }, [imgShown, imagens.length])
 
   return (
-    <div className="slider">
-      <button className="arrow left" onClick={prevImg}>&lt;</button>
+    <div className={styles.slider}>
+      <button className={`${styles.arrow} ${styles.left}`} onClick={prevImg}>&lt;</button>
       {imagens.map((item, index) => {
-      return <a key={index} href={item.link} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt} className={imgShown === index ? 'img' : 'img img-hide'}/></a>
+      return <a key={index} href={item.link} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt} className={imgShown === index ? `${styles.img}` : `${styles.img} ${styles.imgHide}`}/></a>
     })}
-      <button className="arrow right" onClick={nextImg}>&gt;</button>
-      <span className="selectors">
+      <button className={`${styles.arrow} ${styles.right}`} onClick={nextImg}>&gt;</button>
+      <span className={styles.selectors}>
         {imagens.map((_, index) => {
-          return <button key={index} onClick={() => setImgShown(index)} className={imgShown === index ? 'selector' : 'selector selector-inactive'}></button>
+          return <button key={index} onClick={() => setImgShown(index)} className={imgShown === index ? `${styles.selector}` : `${styles.selector} ${styles.selectorInactive}`}></button>
         })}
       </span>
     </div>
