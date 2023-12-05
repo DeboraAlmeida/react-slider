@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "url": "https://images.pexels.com/photos/2422557/pexels-photo-2422557.jpeg",
+      "alt": "Canoa amarela no mar",
+      "link": "#"
+    },
+    {
+      "url": "https://images.pexels.com/photos/88212/pexels-photo-88212.jpeg",
+      "alt": "Praia paradisíaca com coqueiros",
+      "link": "#"
+    },
+    {
+      "url": "https://images.pexels.com/photos/165213/pexels-photo-165213.jpeg",
+      "alt": "Cais de madeira no mar",
+      "link": "#"
+    },
+    {
+      "url": "https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg",
+      "alt": "Barco a remo no mar",
+      "link": "#"
+    },
+    {
+      "url": "https://images.pexels.com/photos/19186642/pexels-photo-19186642/free-photo-of-praia-litoral-barco-bote.jpeg",
+      "alt": "Praia com pessoas brincando ao anoitecer",
+      "link": "#"
+    }
+  ]
+}
